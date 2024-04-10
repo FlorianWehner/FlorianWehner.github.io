@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset=“UTF-8”>
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-    <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Florian Wehner UI Projects</title>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Florian Wehner UI Projects</title>
 </head>
 <body>
-	<h1>Florian Wehner - UI Projects</h1>
-	<div class="container">
-		<img src="Photogrammetry_Processing_Automation_Tool.jpg">
-		<img src="volumetric_capture_processing_tool.jpg">
-
-
-	</div>
+    <div class="grid-container">
+        <!-- Header with Image -->
+        <div class="header">
+            <img src="FLORIAN_WEHNER_UI_PROJECTS.jpg" alt="Florian Wehner - UI Projects Image">
+        </div>
+        
+        <!-- Project 1 -->
+        <div class="project">
+            <a href="https://github.com/FlorianWehner/Photogrammetry-Processing-Automation-Tool" target="_blank"> <!-- Open link in new tab -->
+                <div class="project-image">
+                    <img src="Photogrammetry_Processing_Automation_Tool.jpg" alt="Project 1 Image">
+                </div>
+            </a>
+            <div class="project-description">
+                <div class="project-title">Project 1: Photogrammetry Automation Tool</div>
+                <p>This Python script provides automation for various tasks related to photogrammetry. The script utilizes PySide and Qt Designer for the graphical user interface. The GUI enables basic image processing for photogrammetry and exposes some of Metashape's most commonly used parameters for scan processing.</p>
+            </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project">
+            <a href="https://github.com/FlorianWehner/Volumetric-Capture-Processing-Tool" target="_blank"> <!-- Open link in new tab -->
+                <div class="project-image">
+                    <img src="volumetric_capture_processing_tool.jpg" alt="Project 2 Image">
+                </div>
+            </a>
+            <div class="project-description">
+                <div class="project-title">Project 2: Volumetric Capture Processing Tool</div>
+                <p>The Volumetric Capture Processing Tool is a Python script with a graphical user interface (GUI) built using PySide6 and QT Designer. This script facilitates the management and execution of a photogrammetry pipeline using Metashape, helping to automate the processing of hundreds of frames for volumetric capture datasets.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
