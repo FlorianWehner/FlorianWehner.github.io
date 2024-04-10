@@ -38,7 +38,7 @@ body {
     height: auto;
     display: block; /* Remove default image whitespace */
     transition: transform 0.3s ease-in-out;
-    max-height: 350px; /* Limit maximum height of images */
+    max-height: 525px; /* Limit maximum height of images */
 }
 
 .project-image img:hover {
@@ -58,4 +58,4 @@ body {
     line-height: 1.6; /* Increase line height for better readability */
 }
 
-/* force new commit */
+/* force the newest commit */
