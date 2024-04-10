@@ -1,50 +1,35 @@
-html,
 body {
-  background: url(headerimage.jpg) no-repeat center center fixed; 
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-
+	margin: 0px;
 }
 
-hr {
-  margin: 20px auto;
-  color: #F05F44;
-  border: 3px solid #F05F44;
-  max-width: 65px;
-  opacity: 1;  
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 h1 {
-  font-size: 3rem; 
-  color: #e2dbdb;
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
 }
 
-.buffer {
-  height: 10rem;
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-}
-
-.btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44;
-  --bs-btn-hover-bg: #ee4b08;
-  --bs-btn-hover-border-color: #ee4b08; 
-}
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-  cursor: pointer;
-}
-
-.btn-xl {
-  padding: 1rem 2rem; 
+img:hover {
+	transform: scale(1.1);
 }
